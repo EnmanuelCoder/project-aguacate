@@ -1,8 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { AguacateApi } from "./AguacateApi";
-import AddCarrito from "../assets/icons/AddCarrito";
+import addCart from "../assets/icons/addCart.svg";
+import AppContext from "../context/AppContext";
 
 const Articles = () => {
+
+  const { addToCart } = useContext(AppContext);
+
+  const handdleClick = item => {
+    addToCart(item)
+  }
+
   const formatPrice = (price) => {
     const newPrice = new window.Intl.NumberFormat("en-En", {
       style: "currency",
@@ -49,7 +57,7 @@ const Articles = () => {
                     <p className="text-xl p-4 inline font-bold">
                       {formatPrice(item.price)}
                     </p>
-                    <AddCarrito />
+                    <img src={addCart} alt=""  onClick={() => handdleClick(item)}/>
                   </div>
                 </div>
               </section>

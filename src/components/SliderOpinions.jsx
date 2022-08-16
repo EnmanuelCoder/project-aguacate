@@ -26,7 +26,7 @@ export default function App() {
       >
         <SwiperSlide>
           <UserOpinions 
-            nombre="Juan Velasquez."
+            nombre="Juan Perez."
             pais="Colombia."
             mensaje="Excelente servicio, el soporte esta las 24/7 a disposicion del cliente. Aguacates frescos y de la mejor calidad me encanta esta plataforma la recomiendo un 100%"
             foto="p1"
@@ -42,7 +42,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <UserOpinions 
-            nombre="Julio Menendez."
+            nombre="Julio Diaz."
             pais="USA."
             mensaje="Excelente servicio, el soporte esta las 24/7 a disposicion del cliente. Aguacates frescos y de la mejor calidad me encanta esta plataforma la recomiendo un 100%"
             foto="p2"
