@@ -1,7 +1,10 @@
 import React from 'react';
-import Articles from '../components/Articles';
-import Header from '../components/Header';
-import SliderOpinions from "../components/SliderOpinions"
+import AboutUs from '../containers/AboutUs';
+import Articles from '../containers/Articles';
+import Contact from '../containers/Contact';
+import Footer from '../containers/Footer';
+import Header from '../containers/Header';
+import SliderOpinions from "../containers/SliderOpinions"
 
 const Home = () => {
   return (
@@ -9,8 +12,11 @@ const Home = () => {
     <main>
       <section>
         <Header />
+        <AboutUs />
         <Articles />
         <SliderOpinions />
+        <Contact />
+        <Footer />
       </section>
     </main>
   );

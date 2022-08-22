@@ -30,6 +30,7 @@ const HeaderNav = () => {
   return (
     <header
     className="
+      w-full
       flex
       justify-around
       items-center
@@ -40,7 +41,8 @@ const HeaderNav = () => {
       bg-primary
       font-roboto
       font-bold
-      relative
+      fixed
+      z-50
     "
   > 
     <h1 className="text-xl order-3 lg:order-1 text-white">Aguacate</h1>
