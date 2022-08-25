@@ -41,7 +41,7 @@ const HeaderNav = () => {
       bg-primary
       font-roboto
       font-bold
-      fixed
+    
       z-50
     "
   > 
