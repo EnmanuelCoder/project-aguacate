@@ -16,12 +16,12 @@ const InfoProduct = ({ product }) => {
     <>
       
     {close && <aside className="w-full md:w-96 h-auto flex relative">
-      <div className="w-full md:w-96 h-screen flex flex-col justify-center bg-white px-5 right-0 top-0 fixed z-50 ">
+      <div className="w-full md:w-96 h-[89.8%] flex flex-col justify-center bg-white px-5 right-0 bottom-0 fixed z-40 ">
         <figure className="w-16 absolute top-0">
           <img src={xClose} onClick={handdleClick} alt="icono cerrar" className="w-full" />
         </figure>
         <figure className="w-40 md:w-60 mx-auto">
-          <img src={baseUrl + product.image} />
+          <img src={baseUrl + product.image} alt={product.name} />
         </figure>
         <div className="">
           <p className="font-bold text-xl">{product.name}</p>

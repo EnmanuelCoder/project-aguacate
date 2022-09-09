@@ -13,11 +13,7 @@ import UserOpinions from "../components/UserOpinions";
 export default function App() {
   return (
     <section className="conatiner mx-auto">
-      {/* <div className="w-full h-24">
-        <h2 className="text-3xl font-bold ">
-          Some comments from our customers.
-        </h2>
-      </div> */}
+      <h2 className="text-center text-3xl py-20">Comments from our clients</h2>
       <section className="w-full mx-auto px-4 h-96 flex justify-center p-4">
         <Swiper
           pagination={{

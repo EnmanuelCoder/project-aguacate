@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="flex md:w-full md:h-auto md:flex md:justify-center bg-primary text-white md:font-roboto">
       <div className="w-full h-full container mx-auto pt-10 pb-5  ">
-        <div className=" text-center w-full h-full flex md:justify-between md:flex-row flex-col items-center">
+        <div className="space-y-10 text-center md:text-start w-full h-full flex md:justify-between md:flex-row flex-col items-center">
           <div className="md:w-44 space-y-3">
             <h4 className="text-xl mb-5 uppercase">Aguacate</h4>
             <p>We are known for bringing the best for avocado lovers,</p>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           <div className="md:w-60">
             <h4 className="text-xl space-x-2 mb-5 uppercase">Contact</h4>
-            <ul className="space-y-3 ">
+            <ul className="space-y-3 flex flex-col">
               <li className="flex gap-2">
                 <img src={iconHome} alt="iconos info" />
                 <p className="">Paraguay Asuncion 5155 FM</p>

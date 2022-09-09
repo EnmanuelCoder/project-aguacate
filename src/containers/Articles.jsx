@@ -7,7 +7,7 @@ import Modal from "../components/Modal";
 
 const Articles = () => {
 
-  const { handdleClickClose, close, modalWindow, handleModalWindow, addToCart } = useContext(AppContext);
+  const { handdleClickClose, close, modalWindow, handleModalWindow } = useContext(AppContext);
 
   const formatPrice = (price) => {
     const newPrice = new window.Intl.NumberFormat("en-En", {
@@ -35,8 +35,9 @@ const Articles = () => {
   }, []);
 
   return (
-    <section className=" container mx-auto relative">
-      <article className="font-roboto p-4 my-10 flex gap-8 snap-x overflow-x-auto w-full h-full lg:grid md:grid-cols-3 auto-rows-auto">
+    <section id="products" className=" container mx-auto relative">
+      <h2 className="text-center text-3xl my-20">Featured Products</h2>
+      <article className="font-roboto p-4 flex gap-8 snap-x overflow-x-auto w-full h-full lg:grid md:grid-cols-3 auto-rows-auto">
         {avocado != null ? (
           avocado.map((item) => {
             return (

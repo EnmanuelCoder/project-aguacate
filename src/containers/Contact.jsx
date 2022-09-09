@@ -3,7 +3,9 @@ import iconSendLetter from "../assets/icons/iconSendLetter.svg"
 
 const Contact = () => {
   return (
-    <section className="w-full container h-auto flex flex-col  md:flex-row items-center justify-center  mx-auto px-5 my-14">
+    <>
+      <h2 className="text-center text-3xl my-20" id="contact">Contact us</h2>
+      <section id="contact" className="w-full container h-auto flex flex-col  md:flex-row items-center justify-center  mx-auto px-5">
       <form className="w-full md:w-1/2 flex flex-col justify-around gap-6 ">
         <h3 className="text-2xl font-bold">Send us a message:</h3>
         <input type="text" placeholder="Name" className="w-full rounded-md p-2 border-2" />
@@ -21,6 +23,7 @@ const Contact = () => {
         </div>
       </section>
     </section>
+    </>
   );
 };
 
