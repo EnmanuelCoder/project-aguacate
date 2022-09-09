@@ -56,12 +56,12 @@ const HeaderNav = () => {
           />
         </figure>
         <ul className="lg:flex md:w-full lg:justify-around hidden">
-          <li>
+          <li className="cursor-pointer">
             <Link to="home" spy={true} smooth={true} offset={-100} duration={800}>
               Home
             </Link>
           </li>
-          <li>
+          <li className="cursor-pointer">
             <Link
               to="about"
               spy={true}
@@ -72,7 +72,7 @@ const HeaderNav = () => {
               About us
             </Link>
           </li>
-          <li>
+          <li className="cursor-pointer">
             <Link
               to="products"
               spy={true}
@@ -83,12 +83,12 @@ const HeaderNav = () => {
               Products
             </Link>
           </li>
-          <li>
+          <li className="cursor-pointer">
             <Link to="faq" spy={true} smooth={true} offset={-200} duration={800}>
               FQA
             </Link>
           </li>
-          <li>
+          <li className="cursor-pointer">
             <Link
               to="contact"
               spy={true}
