@@ -26,7 +26,7 @@ export default function App() {
             <UserOpinions
               nombre="Juan Perez."
               pais="Colombia."
-              mensaje="Excelente servicio, el soporte esta las 24/7 a disposicion del cliente. Aguacates frescos y de la mejor calidad me encanta esta plataforma la recomiendo un 100%"
+              mensaje="Excellent service, support is available 24/7 for the customer. Fresh avocados of the best quality I love this platform I recommend it 100%"
               foto="p1"
             />
           </SwiperSlide>
@@ -34,7 +34,7 @@ export default function App() {
             <UserOpinions
               nombre="Mireya Peña."
               pais="Venezuela."
-              mensaje="Excelente servicio, el soporte esta las 24/7 a disposicion del cliente. Aguacates frescos y de la mejor calidad me encanta esta plataforma la recomiendo un 100%"
+              mensaje="Excellent service, support is available 24/7 for the customer. Fresh avocados of the best quality I love this platform I recommend it 100%"
               foto="p3"
             />
           </SwiperSlide>
@@ -42,7 +42,7 @@ export default function App() {
             <UserOpinions
               nombre="Julio Diaz."
               pais="USA."
-              mensaje="Excelente servicio, el soporte esta las 24/7 a disposicion del cliente. Aguacates frescos y de la mejor calidad me encanta esta plataforma la recomiendo un 100%"
+              mensaje="Excellent service, support is available 24/7 for the customer. Fresh avocados of the best quality I love this platform I recommend it 100%"
               foto="p2"
             />
           </SwiperSlide>

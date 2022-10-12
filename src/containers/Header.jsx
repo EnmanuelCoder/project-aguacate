@@ -1,6 +1,7 @@
 import React from "react";
 import bgAguacate from "../assets/image/bgAguacate.jpg";
 import Boton from "../components/Boton"
+import { Link } from "react-scroll";
 
 const Header = () => {
   
@@ -16,7 +17,7 @@ const Header = () => {
           and whenever you want.
         </p>
         <Boton>
-          <a href="/">Ver aguacates</a>
+          <Link to="products" spy={true} smooth={true} offset={-100} duration={800}>See products</Link>
         </Boton>
       </div>
       <figure className="w-full h-screen bg-colors-black ">

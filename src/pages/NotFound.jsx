@@ -19,7 +19,7 @@ const NotFound = () => {
                 <h1 className='text-4xl font-bold my-4 leading-tight text-primary md:text-5xl'>I have bad news for you</h1>
                 <p className='my-5 md:text-xl md:w-80 md:leading-relaxed'>The you are looking for might be removed or is temporarily unavailable</p>
                 <Boton>
-                  <Link to="/">Back to homepage</Link>
+                  <Link to="/home">Back to homepage</Link>
                 </Boton>
               </div>
             </section>
