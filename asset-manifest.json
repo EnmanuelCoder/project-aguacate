@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/project-aguacate/static/css/main.497cbcd9.css",
+    "main.js": "/project-aguacate/static/js/main.67c0d3b9.js",
+    "static/media/p3.jpeg": "/project-aguacate/static/media/p3.5b4536d53a67cfe51f08.jpeg",
+    "static/media/p2.jpeg": "/project-aguacate/static/media/p2.75dd28292d6f397e656b.jpeg",
+    "static/media/p1.jpeg": "/project-aguacate/static/media/p1.332118dcf6ae0f2e2454.jpeg",
+    "static/media/bgAguacate.jpg": "/project-aguacate/static/media/bgAguacate.abdf54616066dd40bf87.jpg",
+    "static/media/cultivate.svg": "/project-aguacate/static/media/cultivate.66d85520009859249ccc335097446487.svg",
+    "static/media/delivery.svg": "/project-aguacate/static/media/delivery.7ebc775be63c04e36cad962643e39699.svg",
+    "static/media/iconSendLetter.svg": "/project-aguacate/static/media/iconSendLetter.83ac55125180350b676a289961e75bd9.svg",
+    "static/media/choose.svg": "/project-aguacate/static/media/choose.e5f9cdbe0355605b0b044f649cf4bb68.svg",
+    "static/media/iconInstagram.svg": "/project-aguacate/static/media/iconInstagram.b7539adbeda4a338a8228921cec171da.svg",
+    "index.html": "/project-aguacate/index.html",
+    "static/media/iconPhone.svg": "/project-aguacate/static/media/iconPhone.899f4f8f7b70931b8388b045a2c62b42.svg",
+    "static/media/iconTwiter.svg": "/project-aguacate/static/media/iconTwiter.3568fea22e9eda8c238069e4f42e3e79.svg",
+    "static/media/addCart.svg": "/project-aguacate/static/media/addCart.916ff27c49859270ba01fd2daf535eea.svg",
+    "static/media/shoppingCart.svg": "/project-aguacate/static/media/shoppingCart.b87d1c154b6e59c4eab2e75097af511b.svg",
+    "static/media/iconLetter.svg": "/project-aguacate/static/media/iconLetter.f85ee57f55b8460152dab9e14637a067.svg",
+    "static/media/iconFacebook.svg": "/project-aguacate/static/media/iconFacebook.65c7edb3c375b3fbdac5394f855ebfc1.svg",
+    "static/media/iconHome.svg": "/project-aguacate/static/media/iconHome.1913e9dbb019f334cd237fa32fe8a7ff.svg",
+    "static/media/xClose.svg": "/project-aguacate/static/media/xClose.e7edd8f109e63eb9642d631b560ba06d.svg",
+    "static/media/arrowBottom.svg": "/project-aguacate/static/media/arrowBottom.fed6a4ea600de8387108f116c4f9affa.svg",
+    "static/media/arrow.svg": "/project-aguacate/static/media/arrow.92ff30fb8bead5579f43432a3e52f519.svg",
+    "static/media/menuMobile.svg": "/project-aguacate/static/media/menuMobile.61d09797c79c2b7112962b39fc1ce719.svg",
+    "main.497cbcd9.css.map": "/project-aguacate/static/css/main.497cbcd9.css.map",
+    "main.67c0d3b9.js.map": "/project-aguacate/static/js/main.67c0d3b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.497cbcd9.css",
+    "static/js/main.67c0d3b9.js"
+  ]
+}
