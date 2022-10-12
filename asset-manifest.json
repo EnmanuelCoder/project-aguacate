@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-aguacate/static/css/main.497cbcd9.css",
-    "main.js": "/project-aguacate/static/js/main.67c0d3b9.js",
+    "main.css": "/project-aguacate/static/css/main.ca92c396.css",
+    "main.js": "/project-aguacate/static/js/main.1a603aa1.js",
     "static/media/p3.jpeg": "/project-aguacate/static/media/p3.5b4536d53a67cfe51f08.jpeg",
     "static/media/p2.jpeg": "/project-aguacate/static/media/p2.75dd28292d6f397e656b.jpeg",
     "static/media/p1.jpeg": "/project-aguacate/static/media/p1.332118dcf6ae0f2e2454.jpeg",
@@ -23,11 +23,11 @@
     "static/media/arrowBottom.svg": "/project-aguacate/static/media/arrowBottom.fed6a4ea600de8387108f116c4f9affa.svg",
     "static/media/arrow.svg": "/project-aguacate/static/media/arrow.92ff30fb8bead5579f43432a3e52f519.svg",
     "static/media/menuMobile.svg": "/project-aguacate/static/media/menuMobile.61d09797c79c2b7112962b39fc1ce719.svg",
-    "main.497cbcd9.css.map": "/project-aguacate/static/css/main.497cbcd9.css.map",
-    "main.67c0d3b9.js.map": "/project-aguacate/static/js/main.67c0d3b9.js.map"
+    "main.ca92c396.css.map": "/project-aguacate/static/css/main.ca92c396.css.map",
+    "main.1a603aa1.js.map": "/project-aguacate/static/js/main.1a603aa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.497cbcd9.css",
-    "static/js/main.67c0d3b9.js"
+    "static/css/main.ca92c396.css",
+    "static/js/main.1a603aa1.js"
   ]
 }
